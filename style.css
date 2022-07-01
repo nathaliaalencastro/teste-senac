@@ -1,7 +1,7 @@
 
 header{
-     background-image: linear-gradient(rgb(255, 152, 152) rgb(220, 10, 10) rgb(114, 0, 0));
-     background-color: rgb(120, 22, 22);
+     background-image: linear-gradient(rgb(255, 152, 152) , rgb(255, 6, 6) , rgb(66, 0, 0));
+     
   height: 200px;
 }
 header, h1{
@@ -25,27 +25,31 @@ section{
     background-color: blue;
     
 }
+footer{
+    float: left;
+    display: flex;
+
+}
+footer img{
+    width: 55%;
+}
 section h3
 {
     color: white;
     margin-top: 30px;
     margin-left: 30px;
 }
-section img{
-    margin-left: 51px;
-    height: 192px;
-    width: 278px;
-}
-section p{
-    margin-right: 810px;
+section p {
     color: white;
-    margin-top: 60px;
-    margin-left: 30px;
-    margin-bottom: 40px;
 }
-div p{
+button{
     color: white;
-    margin-top: 60px;
-    margin-left: 100px;
-
+    background-color: black;
+    border: none;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 20px;
+}
+button:first-child{
+    color: aquamarine;
 }
