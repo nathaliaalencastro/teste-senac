@@ -1,0 +1,51 @@
+
+header{
+     background-image: linear-gradient(rgb(255, 152, 152) rgb(220, 10, 10) rgb(114, 0, 0));
+     background-color: rgb(120, 22, 22);
+  height: 200px;
+}
+header, h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 36px;
+
+}
+
+article, h2{
+    margin-left: 20px;
+}
+article, img{
+    margin-left: 88px;
+    margin-top: 20px;
+}
+article, h4{
+    font-size: 15px;
+}
+section{
+    background-color: blue;
+    
+}
+section h3
+{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+section img{
+    margin-left: 51px;
+    height: 192px;
+    width: 278px;
+}
+section p{
+    margin-right: 810px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+div p{
+    color: white;
+    margin-top: 60px;
+    margin-left: 100px;
+
+}
